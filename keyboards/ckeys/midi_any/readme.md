@@ -10,7 +10,7 @@ Slides can be found at: https://ckeys.org/slides/handwire/ -->
 
 If you want to reflash the pre-installed firmware, use the `.bin` file for Proton C. Flash with the QMK Toolbox or via the command line.
 
-Building for Proton C: `make ckeys/make_any:default`
+Building for Proton C: `make ckeys/midi_any:default`
 
 ## Default Layout
 

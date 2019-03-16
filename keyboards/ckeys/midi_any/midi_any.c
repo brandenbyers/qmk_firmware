@@ -24,6 +24,7 @@ void matrix_init_kb(void) {
 	//PORTD |= (1<<6);
 
 	matrix_init_user();
+  music_on();
 }
 
 void matrix_scan_kb(void) {
@@ -42,3 +43,32 @@ void led_set_kb(uint8_t usb_led) {
 	// put your keyboard LED indicator (ex: Caps Lock LED) toggling code here
 	led_set_user(usb_led);
 }
+
+const uint8_t music_map[MATRIX_ROWS][MATRIX_COLS] = LAYOUT(
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25
+);

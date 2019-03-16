@@ -37,9 +37,13 @@
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 6
 
+#define MUSIC_MAP
 #define MIDI_ADVANCED
 
 // Music Mode Polyphony
 // NOTE: Must change polyphony_rate to a number higher than 0 in voices.c
 #define AUDIO_VOICES
 #define PITCH_STANDARD_A 880.0f
+
+// For use on older iOS devices
+#define USB_MAX_POWER_CONSUMPTION 100

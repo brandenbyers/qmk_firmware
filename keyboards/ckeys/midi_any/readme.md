@@ -15,3 +15,7 @@ Building for Proton C: `make ckeys/midi_any:default`
 ## Default Layout
 
 You can find the default layout in `midi_any/keymaps/default/keymap.c`
+
+## Demo Layouts
+
+These are used for live demonstrations where we don't want people switching layers.

@@ -2,9 +2,9 @@
 
 ![](https://ckeys.org/images/midi-any-mockup-banner.jpg)
 
-<!-- ## Slides
+## Slides
 
-Slides can be found at: https://ckeys.org/slides/handwire/ -->
+Slides can be found at: https://ckeys.org/slides/midi-any/
 
 ## Firmware
 

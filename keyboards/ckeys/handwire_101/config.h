@@ -20,12 +20,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6060
-#define DEVICE_VER      0x0001
-#define MANUFACTURER    ckeys_handwire
-#define PRODUCT         ckeys_handwire
-#define DESCRIPTION     4x4 handwire workshop board
+#define VENDOR_ID 0xFEED
+#define PRODUCT_ID 0x6060
+#define DEVICE_VER 0x0001
+#define MANUFACTURER ckeys_handwire
+#define PRODUCT ckeys_handwire
+#define DESCRIPTION 4x4 handwire workshop board
 
 /* key matrix size */
 #define MATRIX_ROWS 4
@@ -41,8 +41,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-#define MATRIX_ROW_PINS { F4, F5, F6, F7 }
-#define MATRIX_COL_PINS { D4, C6, D7, E6 }
+// #define MATRIX_ROW_PINS { F4, F5, F6, F7 }
+// #define MATRIX_COL_PINS { D4, C6, D7, E6 }
+
+#define MATRIX_ROW_PINS { D1, D0, D4, C6 }
+#define MATRIX_COL_PINS { F6, F7, B1, B3 }
 
 /* COL2ROW, ROW2COL, or CUSTOM_MATRIX */
 #define DIODE_DIRECTION COL2ROW
@@ -50,7 +53,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define BACKLIGHT_PIN B7
 // #define BACKLIGHT_BREATHING
 //#define BACKLIGHT_LEVELS 3
-
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCING_DELAY 5
@@ -166,11 +168,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PITCH_STANDARD_A 880.0f
 
 // Mouse keys
-#define MOUSEKEY_DELAY          0
-#define MOUSEKEY_INTERVAL       20
-#define MOUSEKEY_MAX_SPEED      2
-#define MOUSEKEY_TIME_TO_MAX    5
-#define MOUSEKEY_WHEEL_DELAY    0
+#define MOUSEKEY_DELAY 0
+#define MOUSEKEY_INTERVAL 20
+#define MOUSEKEY_MAX_SPEED 2
+#define MOUSEKEY_TIME_TO_MAX 5
+#define MOUSEKEY_WHEEL_DELAY 0
 
 /*
  * Feature disable options

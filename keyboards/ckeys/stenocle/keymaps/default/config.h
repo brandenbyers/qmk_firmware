@@ -1,3 +1,3 @@
 #pragma once
 
-// Add overrides here 
+#define FORCE_NKRO
